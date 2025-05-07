@@ -49,3 +49,7 @@ jobs:
 #      with:
 #        recreate: true
 #        path: code-coverage-results.md
+
+    - name: Publish
+      run: dotnet nuget push **/bin/Release/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }}  --source "github"
+
