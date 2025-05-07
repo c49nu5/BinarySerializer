@@ -19,8 +19,8 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <AssemblyVersion>8.6.4.1</AssemblyVersion>
-    <Version>$(AssemblyVersion)</Version>
+    <AssemblyVersion>8.6.4.2</AssemblyVersion>
+    <Version>$(AssemblyVersion)-cygnus</Version>
     <FileVersion>$(AssemblyVersion)</FileVersion>
   </PropertyGroup>
 
